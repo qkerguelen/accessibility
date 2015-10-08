@@ -7,6 +7,6 @@
             <li>Yolo</li>
             <li>Contact</li>
         </ul>
-        <p>lol lol</p>
+        <p>lol lol looooooool</p>
     </nav>
 </header>
