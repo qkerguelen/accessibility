@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <html lang="fr">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width"/>
         <title>Title</title>
@@ -12,10 +13,28 @@
         <script src="js/main.js"></script>
     </head>
     <body>
-        <?php include("header.php"); ?>
+        <div class="wrapper">
+            <?php include("header.php"); ?>
+        </div>
+       
+        <div class="wrapper">
+            <section>
+            <article>
+                <h3>Content</h3>
+                <p>Voilà voilà</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bfS7cWB95w4" frameborder="0" allowfullscreen></iframe>
+                <p>LOL</p>
+                <p>LOL</p>
+            </article>
+            </section>
+            <aside>
+                <h3>Sidebar</h3>
+                <p>Voilà voilà</p>
+            </aside> 
+        </div>
 
-        Content
-
-        <?php include("footer.php"); ?>
+        <div class="wrapper">
+            <?php include("footer.php"); ?>
+        </div>
     </body>
 </html>

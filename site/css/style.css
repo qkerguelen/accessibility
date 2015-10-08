@@ -1,0 +1,35 @@
+/* ------------ CONTENT ----------------- */
+
+.wrapper{
+	width: 960px;
+	margin: auto;
+	position: relative;
+}
+
+.wrapper:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+section{
+	width: 80%;
+	background-color: tomato;
+	padding: 10px;
+	float: left;
+}
+
+aside{
+	width: 20%;
+	background-color: aqua;
+	padding: 10px;
+	float: left;
+	position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+iframe {
+	display: block;
+	margin:auto;
+}
