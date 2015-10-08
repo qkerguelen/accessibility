@@ -7,5 +7,6 @@
             <li>Yolo</li>
             <li>Contact</li>
         </ul>
+        <p>lol</p>
     </nav>
 </header>
