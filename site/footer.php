@@ -1,1 +1,1 @@
-<footer>Wahoooo</footer>
+<footer>Footer</footer>

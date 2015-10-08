@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <header>
     <img src="img/logo.png" alt="">
     <nav>
@@ -9,3 +10,6 @@
         </ul>
     </nav>
 </header>
+=======
+<header>Header</header>
+>>>>>>> origin/master
