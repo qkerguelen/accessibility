@@ -12,9 +12,10 @@
         <script src="js/main.js"></script>
     </head>
     <body>
-        <?php 
-        	include("header.php");
-        	include("footer.php"); 
-        ?>
+        <?php include("header.php"); ?>
+
+        Content
+
+        <?php include("footer.php"); ?>
     </body>
 </html>
