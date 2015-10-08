@@ -7,5 +7,9 @@
             <li><a href="#">Yolo</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+<<<<<<< HEAD
+=======
+        <p>lol lol looooooool</p>
+>>>>>>> dev-quentin
     </nav>
 </header>
