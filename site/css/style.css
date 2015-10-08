@@ -10,10 +10,13 @@ header>nav {
 header nav>ul {
     width: 100%;
     display: table;
+    height: 75px;
 }
 header nav>ul>li {
     display: table-cell;
     width: 25%;
+    vertical-align: center;
+    text-align: center;
 }
 
 /* ------------ CONTENT ----------------- */
