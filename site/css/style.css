@@ -1,0 +1,17 @@
+header>img {
+    display: block;
+    width: 30%;
+    float: left;
+}
+header>nav {
+    float: left;
+    width: 70%;
+}
+header nav>ul {
+    width: 100%;
+    display: table;
+}
+header nav>ul>li {
+    display: table-cell;
+    width: 25%;
+}
