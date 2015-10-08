@@ -11,11 +11,8 @@
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="js/main.js"></script>
     </head>
-<<<<<<< HEAD
     <body>nope
-=======
     <body>
->>>>>>> origin/master
 		
     </body>
     </html>
