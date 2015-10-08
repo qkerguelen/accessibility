@@ -2,10 +2,10 @@
     <img src="img/logo.png" alt="">
     <nav>
         <ul>
-            <li>Accueil</li>
-            <li>Yolo</li>
-            <li>Yolo</li>
-            <li>Contact</li>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Yolo</a></li>
+            <li><a href="#">Yolo</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 </header>
