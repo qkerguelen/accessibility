@@ -15,7 +15,7 @@ header nav>ul {
 header nav>ul>li {
     display: table-cell;
     width: 25%;
-    vertical-align: center;
+    vertical-align: middle;
     text-align: center;
 }
 
