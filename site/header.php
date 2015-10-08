@@ -4,7 +4,7 @@
         <ul>
             <li><a href="#">Accueil</a></li>
             <li><a href="#">Yolo</a></li>
-            <li><a href="#">Yolo</a></li>
+            <li><a href="#">Yololo</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
