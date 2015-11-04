@@ -20,6 +20,7 @@
         <div class="wrapper">
             <section>
             <article>
+                <a href="liste-tab.html" target="_blank">liste</a>
                 <table summary="Budget pour mon voyage hihi! ">
                     <caption>Budget voyage</caption>
                     <thead>
@@ -55,7 +56,8 @@
             <aside>
                 <h3>Sidebar</h3>
                 <p>Voilà voilà</p>
-            </aside> 
+            </aside>
+            <section></section>
         </div>
 
         <div class="wrapper">
