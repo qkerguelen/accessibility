@@ -56,4 +56,16 @@ footer>div>ul>li>span {
 #social-ico li>a>i {
     font-size:2.5rem;
 }
+/*************************************/
+
+/************* Page produits *********/
+#products {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+#products>article {
+    flex: 1 33.33333333%;
+}
     
