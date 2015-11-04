@@ -87,7 +87,7 @@
     <nav id="mainNav">
         <ul class="nav-menu">
         	<li class="nav-item">
-                <a href="?home" title="Aller à l'accueil">Accueil</a>
+                <a href="index.php" title="Aller à l'accueil">Accueil</a>
             </li>
             <li class="nav-item">
                 <a href="?angency" title="Découvre notre agence">L'Agence</a>
