@@ -1,4 +1,13 @@
 <header>
+    <div id="access-nav">
+        <ul>
+            <li><a tabindex="1" href="#mainNav">Aller au menu</a></li>
+            <li><a tabindex="2" href="#mainContent">Aller au contenu</a></li>
+            <li><a tabindex="3" href="#mainFooter">Aller au footer</a></li>
+        </ul>
+    </div>
+
+
     <img src="img/logo.png" alt="">
 <style>
         /* CSS rudimentaire pour cet exemple de GMA */    
@@ -75,7 +84,7 @@
             padding: 0;
         }     
     </style>
-    <nav>
+    <nav id="mainNav">
         <ul class="nav-menu">
         	<li class="nav-item">
                 <a href="?home">Accueil</a>
@@ -101,13 +110,10 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a href="?contact">contact</a>
+                <a href="contact.php">Contact</a>
             </li>
         </ul>
     </nav>
-
-    <!-- inclusion de jquery -->
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
     <!-- inclusion du script plugin jquery-accessibleMegaMenu -->
     <script src="js/jquery-accessibleMegaMenu.js"></script>
