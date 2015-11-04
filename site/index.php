@@ -52,6 +52,9 @@
                     </tbody>
                 </table>
             </article>
+            <article id="aftertab">
+                
+            </article>
             </section>
             <aside>
                 <h3>Sidebar</h3>
