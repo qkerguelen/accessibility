@@ -21,33 +21,34 @@
             <section>
             <article>
                 <a href="liste-tab.html" target="_blank">liste</a>
-                <table summary="Budget pour mon voyage hihi! ">
-                    <caption>Budget voyage</caption>
+                <table summary="les offres de l'agence">
+                    <caption>Nos offres</caption>
                     <thead>
                         <tr>
-                            <th id="l1c1">Destination</th>
-                            <th id="l1c2">Dates du déplacement</th>
-                            <th id="l1c3">Repas</th>
-                            <th id="l1c4">Hôtel</th>
-                            <th id="l1c5">Transport</th>
-                            <th id="l1c6">Total</th>
+                            <th id="l1c1">Options</th>
+                            <th id="l1c2">Offre à 500€</th>
+                            <th id="l1c3">Offre à 1500€</th>
+                            <th id="l1c4">Offre à 10 000€</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th id="l2c1" headers="l1c1" rowspan="3">Nice</th>
-                            <th id="l2c2" headers="l1c2 l2c1">25 août</th> 
-                            <td headers="l1c3 l2c1 l2c2">37</td>
-                            <td headers="l1c4 l2c1 l2c2">112</td>
-                            <td headers="l1c5 l2c1 l2c2">45</td>
-                            <td headers="l1c6 l2c1 l2c2"> </td>
+                            <th id="l2c1" headers="l1c1">e-commerce</th>
+                            <td headers="l1c2 l2c1">Non</td> 
+                            <td headers="l1c3 l2c1">Non</td>
+                            <td headers="l1c4 l2c1">Oui</td>
                         </tr>
                         <tr>
-                            <th id="l3c2" headers="l1c2 l2c1">26 août</th>
-                            <td headers="l1c3 l2c1 l3c2">27</td>
-                            <td headers="l1c4 l2c1 l3c2">112</td>
-                            <td headers="l1c5 l2c1 l3c2">45</td>
-                            <td headers="l1c6 l2c1 l3c2"> </td>
+                            <th id="l3c1" headers="l1c1">chat</th>
+                            <td headers="l1c2 l3c1">Non</td> 
+                            <td headers="l1c3 l3c1">Oui</td>
+                            <td headers="l1c4 l3c1">Oui</td>
+                        </tr>
+                        <tr>
+                            <th id="l4c1" headers="l1c1">commentaire</th>
+                            <td headers="l1c2 l4c1">Oui</td> 
+                            <td headers="l1c3 l4c1">Oui</td>
+                            <td headers="l1c4 l4c1">Oui</td>
                         </tr>
                     </tbody>
                 </table>
