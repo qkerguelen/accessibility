@@ -17,7 +17,7 @@
         </ul>
     </div>
     <div>
-        <a title="Conditions générales d'utilisation" href="">Conditions générales d'utilisation</a>
+        <a title="Mentions légales" href="mentions-legales.php">Mentions légales</a>
         <p id="social-text">Nos réseaux sociaux</p>
         <ul id="social-ico">
             <li><a title="facebook" href=""><i class="fa fa-facebook-square"></i></a></li>
