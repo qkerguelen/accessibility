@@ -20,11 +20,36 @@
         <div class="wrapper">
             <section>
             <article>
-                <h3>Content</h3>
-                <p>Voilà voilà</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/bfS7cWB95w4" frameborder="0" allowfullscreen></iframe>
-                <p>LOL</p>
-                <p>LOL</p>
+                <table summary="Budget pour mon voyage hihi! ">
+                    <caption>Budget voyage</caption>
+                    <thead>
+                        <tr>
+                            <th id="l1c1">Destination</th>
+                            <th id="l1c2">Dates du déplacement</th>
+                            <th id="l1c3">Repas</th>
+                            <th id="l1c4">Hôtel</th>
+                            <th id="l1c5">Transport</th>
+                            <th id="l1c6">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="l2c1" headers="l1c1" rowspan="3">Nice</th>
+                            <th id="l2c2" headers="l1c2 l2c1">25 août</th> 
+                            <td headers="l1c3 l2c1 l2c2">37</td>
+                            <td headers="l1c4 l2c1 l2c2">112</td>
+                            <td headers="l1c5 l2c1 l2c2">45</td>
+                            <td headers="l1c6 l2c1 l2c2"> </td>
+                        </tr>
+                        <tr>
+                            <th id="l3c2" headers="l1c2 l2c1">26 août</th>
+                            <td headers="l1c3 l2c1 l3c2">27</td>
+                            <td headers="l1c4 l2c1 l3c2">112</td>
+                            <td headers="l1c5 l2c1 l3c2">45</td>
+                            <td headers="l1c6 l2c1 l3c2"> </td>
+                        </tr>
+                    </tbody>
+                </table>
             </article>
             </section>
             <aside>
