@@ -4,7 +4,7 @@
         <html lang="fr">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width"/>
-        <title>Title</title>
+        <title>Accueil | Accessibility</title>
         <link rel="icon" type="image/png" href="">
         <link rel="stylesheet" media="screen" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
