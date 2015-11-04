@@ -1,5 +1,14 @@
 <header>
-    <img src="img/logo.png" alt="">
+    <div id="access-nav">
+        <ul>
+            <li><a tabindex="1" href="#mainNav">Aller au menu</a></li>
+            <li><a tabindex="2" href="#mainContent">Aller au contenu</a></li>
+            <li><a tabindex="3" href="#mainFooter">Aller au footer</a></li>
+        </ul>
+    </div>
+
+
+    <img src="img/logo.png" alt="logo de l'agence">
 <style>
         /* CSS rudimentaire pour cet exemple de GMA */    
     
@@ -75,39 +84,36 @@
             padding: 0;
         }     
     </style>
-    <nav>
+    <nav id="mainNav">
         <ul class="nav-menu">
         	<li class="nav-item">
-                <a href="?home">Accueil</a>
+                <a href="?home" title="Aller à l'accueil">Accueil</a>
             </li>
             <li class="nav-item">
-                <a href="?angency">L'Agence</a>
+                <a href="?angency" title="Découvre notre agence">L'Agence</a>
                 <div class="sub-nav">
                     <ul class="sub-nav-group">
-                        <li><a href="?agency&team=0">Dev</a></li>
-                        <li><a href="?agency&team=1">Graphistes</a></li>
-                        <li><a href="?agency&team=2">Com</a></li>
+                        <li><a href="?agency&team=0" title="Notre équipe de développeurs">Dev</a></li>
+                        <li><a href="?agency&team=1" title="découvrez nos graphiqte">Graphistes</a></li>
+                        <li><a href="?agency&team=2" title="rencontrez notre équipe de communication">Com</a></li>
                     </ul>
                 </div>
             </li>
             <li class="nav-item">
-                <a href="?products">Nos produits</a>
+                <a href="?products" title="nos produits">Nos produits</a>
                 <div class="sub-nav">
                     <ul class="sub-nav-group">
-                        <li><a href="?products&type=0">Sites vitrines</a></li>
-                        <li><a href="?products&type=1">E-Commerce</a></li>
-                        <li><a href="?products&type=2">Blogs</a></li>
+                        <li><a href="?products&type=0" title="Sites vitrines">Sites vitrines</a></li>
+                        <li><a href="?products&type=1" title="E-commerces">E-Commerces</a></li>
+                        <li><a href="?products&type=2" title="blogs">Blogs</a></li>
                     </ul>
                 </div>
             </li>
             <li class="nav-item">
-                <a href="?contact">contact</a>
+                <a href="contact.php" title="contactez nous">Contact</a>
             </li>
         </ul>
     </nav>
-
-    <!-- inclusion de jquery -->
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
     <!-- inclusion du script plugin jquery-accessibleMegaMenu -->
     <script src="js/jquery-accessibleMegaMenu.js"></script>

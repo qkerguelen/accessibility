@@ -10,15 +10,16 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/style-franck.css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         <script src="js/main.js"></script>
     </head>
     <body>
+
         <div class="wrapper">
             <?php include("header.php"); ?>
         </div>
        
-        <div class="wrapper">
+        <div id="mainContent" class="wrapper">
             <section>
             <article>
                 <a href="liste-tab.html" target="_blank">liste</a>
@@ -65,7 +66,7 @@
             <section></section>
         </div>
 
-        <div class="wrapper">
+        <div id="mainFooter" class="wrapper">
             <?php include("footer.php"); ?>
         </div>
     </body>
