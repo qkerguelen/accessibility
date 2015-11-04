@@ -22,12 +22,12 @@
             <section>
             <article>
                <form>
-                    <label>Nom : </label>
-                    <input type="text" name="nom"/><br>
-                    <label>Email : </label>
-                    <input type="email" name="email"/><br>
-                    <label>Message : </label>
-                    <textarea></textarea>
+                    <label for="nom">Nom : </label>
+                    <input id="nom" type="text" name="nom"/><br>
+                    <label for="email">Email : </label>
+                    <input id="email" type="email" name="email"/><br>
+                    <label for="message">Message : </label>
+                    <textarea id="message" name="message"></textarea>
                </form>
             </article>
             </section>
