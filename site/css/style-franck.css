@@ -77,6 +77,22 @@ footer>div>ul>li>span {
 
 #products>article>h3{
     font-size: 1.35rem;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
-    
+
+/******************** form contact *********/
+form>input, form>textarea {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+form {
+    margin: auto;
+    width: 500px;
+}
+
+form>label {
+    text-align: center;
+    display: block;
+    margin-bottom: 7px;
+}

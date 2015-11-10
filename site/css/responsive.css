@@ -1,0 +1,41 @@
+@media screen and (max-width: 641px){
+    .wrapper {
+        width: 611px;
+    }
+
+    #products>article {
+        flex: 1 50%;
+        padding: 11px;
+    }  
+
+    #products>article>img {
+        margin: initial;
+        margin-bottom: 15px;
+    }
+    
+    #mainContent>section, #mainContent>aside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .wrapper {
+        width: 450px;
+    }
+
+    #products>article {
+        flex: 1 100%;
+        padding: 7px;
+    }
+    footer {
+        flex-flow: column;
+    }
+
+    footer>div {
+        flex:1;
+        padding: 7px;
+        border-bottom: 1px solid #fff;
+    }
+}
+/*@media screen and (max-device-width: 961px) and (orientation: landscape){
+}*/

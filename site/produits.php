@@ -9,6 +9,7 @@
         <link rel="stylesheet" media="screen" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/style-franck.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <script src="js/jquery.min.js"></script>
         <script src="js/main.js"></script>
