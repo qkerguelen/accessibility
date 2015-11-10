@@ -1,11 +1,26 @@
 <header>
     <div id="access-nav">
         <ul>
-            <li><a tabindex="1" href="#mainNav">Aller au menu</a></li>
-            <li><a tabindex="2" href="#mainContent">Aller au contenu</a></li>
-            <li><a tabindex="3" href="#mainFooter">Aller au footer</a></li>
+            <li><a id="gotoMenu" tabindex="1" href="#mainNav">Aller au menu</a></li>
+            <li><a id="gotoContent" tabindex="2" href="#mainContent">Aller au contenu</a></li>
+            <li><a id="gotoFooter" tabindex="3" href="#mainFooter">Aller au footer</a></li>
         </ul>
     </div>
+
+    <script type="text/javascript">
+        $("#gotoMenu").click(function(){
+            $("#mainNav .nav-item:first-child a:first-child").focus();
+            return false;
+        });
+        $("#gotoContent*").click(function(){
+            $("#mainContent section:first-child article:first-child a:first-child").focus();
+            return false;
+        });
+        $("#gotoFooter").click(function(){
+            $("footer div:first-child li:first-child a:first-child").focus();
+            return false;
+        });
+    </script>
 
 
     <img src="img/logo.png" alt="logo de l'agence">
@@ -87,11 +102,8 @@
     <nav id="mainNav">
         <ul class="nav-menu">
         	<li class="nav-item">
-<<<<<<< HEAD
                 <a href="?home" title="Aller à l'accueil">Accueil</a>
-=======
                 <a href="index.php" title="Aller à l'accueil">Accueil</a>
->>>>>>> 3918f18b9345e4f8abfc5ed8ccedd9765c260173
             </li>
             <li class="nav-item">
                 <a href="?angency" title="Découvre notre agence">L'Agence</a>

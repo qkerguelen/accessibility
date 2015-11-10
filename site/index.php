@@ -56,6 +56,10 @@
                 </table>
             </article>
             <article id="aftertab">
+
+            <a href="#">lol1</a>
+            <p><a href="#">lol2</a></p>
+            <a href="#">lol3</a>
                 
             </article>
             </section>
