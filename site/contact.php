@@ -4,10 +4,18 @@
         <html lang="fr">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width"/>
+<<<<<<< HEAD
         <title>Contact</title>
         <link rel="icon" type="image/png" href="">
         <link rel="stylesheet" media="screen" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+=======
+        <title>Accueil | Accessibility</title>
+        <link rel="icon" type="image/png" href="">
+        <link rel="stylesheet" media="screen" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style-franck.css">
+>>>>>>> 3918f18b9345e4f8abfc5ed8ccedd9765c260173
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <script src="js/jquery.min.js"></script>
         <script src="js/main.js"></script>
