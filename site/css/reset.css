@@ -50,19 +50,26 @@ table {
 	border-spacing: 0;
 }
 a:link {
-  color: #f78138; 
+  color: #fff; 
   text-decoration:underline;
 }
 a:visited {
-  color: #f78138;
+  color: #fff;
   text-decoration:underline;
 }
 a:hover {
   color:#fff;
-  text-decoration:underline;
+    text-decoration: none;
+}
+a{
+    color: blue!important;
+}
+
+header a, footer a {
+    color: white!important;
 }
 /* Déclaration pour IE qui assimile l'état :focus à l'état :active */
 a:focus, a:active {
   text-decoration:none;
-  color:#f78138;
+  color:#fff;
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 641px){
+@media screen and (max-device-width: 641px){
     .wrapper {
         width: 611px;
     }
@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 481px){
+@media screen and (max-device-width: 481px){
     .wrapper {
         width: 450px;
     }

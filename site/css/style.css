@@ -7,7 +7,12 @@ html{
 /* ------------ HEADER ----------------- */
 
 header{
-	background-color: #4a4a4a;
+	background-color: #1a1a1a;
+}
+
+#access-nav{
+	background: black;
+	margin-bottom: 15px;
 }
 
 header:after{
@@ -16,10 +21,34 @@ header:after{
 	content: "";
 }
 
+footer a:hover {
+	color: white;
+}
+
+#mainContent a {
+	color: blue;
+}
+
+a[target="_blank"]:after{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    background-image: url(../img/blanked.gif);
+    background-size: cover;
+}
+
+#mainContent a:hover {
+    text-decoration: none;
+}
+
 header>img {
     display: block;
     width: 50px;
     float: left;
+    padding: 5px;
+    
 }
 header>nav {
     float: left;
@@ -37,6 +66,14 @@ header nav>ul>li {
     text-align: center;
 }
 
+.nav-item>a.open, .sub-nav {
+    background-color: black!important;
+}
+
+#access-nav{
+    display: none;
+}
+
 #access-nav li{
 	display: inline-block;
 	padding: 10px;
@@ -47,7 +84,12 @@ header nav>ul>li {
 
 p{
 	padding: 10px 0;
+    line-height: 145%;
+}
 
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 h2{
@@ -55,10 +97,18 @@ h2{
 	margin: 10px 0;
 }
 
+article#tab {
+    margin: 15px 0;
+}
+
 table,td,th{
 	border:3px solid black;
 	border-collapse: collapse;
 	padding: 5px;
+}
+
+caption {
+    margin: 5px 0;
 }
 
 .wrapper{
@@ -76,22 +126,138 @@ table,td,th{
 	clear: both;
 }
 
+.wrapper>p>a {
+    color: blue;
+}
+
 section{
 	width: 80%;
-	border-right:2px solid black;
 	padding: 10px;
 	float: left;
 }
 
 aside{
 	width: 20%;
-	padding: 10px;
 	float: left;
     right: 0;
-    height: 100%;
+    background-color: #ffff;
+}
+
+aside>h3 {
+    font-size: 1.35rem;
+    padding: 5px;
 }
 
 iframe {
 	display: block;
 	margin:auto;
+}
+
+/************** footer **************/
+footer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #1a1a1a;
+    /*    border-bottom: 7px solid #3be355;
+    border-top: 7px solid #3be355;*/
+    line-height: 135%;
+    padding: 0;
+}
+
+footer>div {
+    flex:1;
+    color: #fff;
+    padding: 15px;
+    border-right: 1px solid #fff;
+}
+
+footer>p {
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background-color: #ffffff;
+    width: 100%;
+    color: #4a4a4a;
+}
+
+footer>div:nth-child(3){
+    border: 0;
+}
+
+footer>div>p {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+footer>div>ul {
+    margin-top: 10px;
+}
+
+footer>div>ul>li>span {
+    color: #ffffff;
+}
+
+#social-text{
+    margin-top: 10px;
+}
+
+#social-ico li {
+    display: inline;
+    margin-right: 5px;
+}
+
+#social-ico li>a>i {
+    font-size:2.5rem;
+}
+
+/************* Page produits *********/
+#products {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    border: 0;
+}
+
+#products>article {
+    flex: 1 33.33333333%;
+    padding: 15px;
+}
+
+#products>article>img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#products>article>h3{
+    font-size: 1.35rem;
+    margin-bottom: 5px;
+}
+
+/******************** form contact *********/
+#contact {
+    width: 100%;
+    border: 0;
+}
+form>input, form>textarea {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 5px;
+}
+
+form>textarea {
+    height: 200px;
+}
+
+form {
+    width: 500px;
+    margin-top: 10px;
+}
+
+form>label {
+    text-align: left;
+    display: block;
+    margin-bottom: 7px;
 }

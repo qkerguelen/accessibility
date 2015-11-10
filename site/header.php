@@ -9,16 +9,16 @@
 
     <script type="text/javascript">
         $("#gotoMenu").click(function(){
-            $("#mainNav .nav-item:first-child a:first-child").focus();
+            $("#mainNav a").first().focus();
             return false;
         });
         $("#gotoContent").click(function(){
-            $("#mainContent section:first-child p:first-child a:first-child").focus();
+            $("#mainContent a").first().focus();
             return false;
         });
         $("#gotoFooter").click(function(){
-            $("footer div:first-child li:first-child a:first-child").focus();
-            return false;
+            $("footer a").first().focus();
+            return false;//hihi
         });
     </script>
 
@@ -102,7 +102,6 @@
     <nav id="mainNav">
         <ul class="nav-menu">
         	<li class="nav-item">
-                <a href="?home" title="Aller à l'accueil">Accueil</a>
                 <a href="index.php" title="Aller à l'accueil">Accueil</a>
             </li>
             <li class="nav-item">

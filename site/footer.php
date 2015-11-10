@@ -2,10 +2,10 @@
     <div>
         <p>Plan du site</p>
         <ul>
-            <li><a title="accueil" href="">Accueil</a></li>
-            <li><a title="l'agence" href="">L'Agence</a></li>
-            <li><a title="nos produits" href="">Nos produits</a></li>
-            <li><a title="contact" href="">Contact</a></li>
+            <li><a title="accueil" href="index.php">Accueil</a></li>
+            <li><a title="l'agence" href="#">L'Agence</a></li>
+            <li><a title="nos produits" href="produits.php">Nos produits</a></li>
+            <li><a title="contact" href="contact.php">Contact</a></li>
         </ul>
     </div>
     <div>
