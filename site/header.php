@@ -18,7 +18,7 @@
         });
         $("#gotoFooter").click(function(){
             $("footer a").first().focus();
-            return false;
+            return false;//hihi
         });
     </script>
 
