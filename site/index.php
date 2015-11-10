@@ -57,9 +57,9 @@
             </article>
             <article id="aftertab">
 
-            <a href="#">lol1</a>
-            <p><a href="#">lol2</a></p>
-            <a href="#">lol3</a>
+            <p><a href="#">lol1</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed blandit arcu. Vivamus ac vehicula felis. Donec posuere lectus sit amet augue vehicula vulputate. Donec vitae purus tempus, consequat augue quis, tempus tellus. Pellentesque vulputate maximus elementum. Nullam pharetra ligula in tin</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed blandit arcu. Vivamus ac vehicula felis. Donec posuere lectus sit amet augue vehicula vulputate. Donec vitae purus tempus, consequat augue quis, tempus tellus. Pellentesque vulputate maximus elementum. Nullam pharetra ligula in tin<a href="#">lol2</a></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed blandit arcu. Vivamus ac vehicula felis. Donec posuere lectus sit amet augue vehicula vulputate. Donec vitae purus tempus, consequat augue quis, tempus tellus. Pellentesque vulputate maximus elementum. Nullam pharetra ligula in tin<a href="#">lol3</a></p>
                 
             </article>
             </section>

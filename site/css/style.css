@@ -2,12 +2,23 @@
 html{
     font-family: 'Open Sans';
     font-size: 0.85rem;
+    color: black;
 }
 /* ------------ HEADER ----------------- */
 
+header{
+	background-color: #4a4a4a;
+}
+
+header:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+
 header>img {
     display: block;
-    width: 30%;
+    width: 50px;
     float: left;
 }
 header>nav {
@@ -21,7 +32,7 @@ header nav>ul {
 }
 header nav>ul>li {
     display: table-cell;
-    width: 25%;
+    width: 20%;
     vertical-align: middle;
     text-align: center;
 }
@@ -34,6 +45,16 @@ header nav>ul>li {
 /* ------------ CONTENT ----------------- */
 
 
+p{
+	padding: 10px 0;
+
+}
+
+h2{
+	font-size: 1.5rem;
+	margin: 10px 0;
+}
+
 table,td,th{
 	border:3px solid black;
 	border-collapse: collapse;
@@ -45,6 +66,10 @@ table,td,th{
 	margin: auto;
 }
 
+#contact {
+	width: 100%;
+}
+
 .wrapper:after{
 	display: block;
 	content: "";
@@ -53,14 +78,13 @@ table,td,th{
 
 section{
 	width: 80%;
-	background-color: tomato;
+	border-right:2px solid black;
 	padding: 10px;
 	float: left;
 }
 
 aside{
 	width: 20%;
-	background-color: aqua;
 	padding: 10px;
 	float: left;
     right: 0;

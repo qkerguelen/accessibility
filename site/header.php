@@ -12,8 +12,8 @@
             $("#mainNav .nav-item:first-child a:first-child").focus();
             return false;
         });
-        $("#gotoContent*").click(function(){
-            $("#mainContent section:first-child article:first-child a:first-child").focus();
+        $("#gotoContent").click(function(){
+            $("#mainContent section:first-child p:first-child a:first-child").focus();
             return false;
         });
         $("#gotoFooter").click(function(){
@@ -116,7 +116,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a href="?products" title="nos produits">Nos produits</a>
+                <a href="produits.php" title="nos produits">Nos produits</a>
                 <div class="sub-nav">
                     <ul class="sub-nav-group">
                         <li><a href="?products&type=0" title="Sites vitrines">Sites vitrines</a></li>
