@@ -30,7 +30,7 @@
                 <article>
                     <img src="img/icon-graph.png" alt="">
                     <h3>Référencement naturel et Publicité en ligne</h3>
-                    <p>Du <a href="http://tacticweb.fr/referencement-naturel/referencement-naturel-definition" title="référencement naturel">référencement naturel</a> à la publicité en ligne, Youdemus vous accompagne pour booster la visibilité de votre site Internet sur les moteurs de recherche et accroître votre trafic visiteur.</p>
+                    <p>Du <a href="http://tacticweb.fr/referencement-naturel/referencement-naturel-definition" target="_blank" title="référencement naturel">référencement naturel</a> à la publicité en ligne, Youdemus vous accompagne pour booster la visibilité de votre site Internet sur les moteurs de recherche et accroître votre trafic visiteur.</p>
                 </article>
                 <article>
                     <img src="img/icon_reseaux_sociaux31.png" alt="">
@@ -50,7 +50,7 @@
                 <article>
                     <img src="img/responsive-mobile2.png" alt="">
                     <h3>Responsive web design et Applications mobiles</h3>
-                    <p>Nous adaptons les sites Internet au format smartphone et tablette en nous concentrant sur les notions d’ergonomie, de design et d’intuitivité. De plus, nous sommes des adeptes du <a href="http://www.alsacreations.com/article/lire/1615-cest-quoi-le-responsive-web-design.html" title="responsive design">responsive design</a>.</p>
+                    <p>Nous adaptons les sites Internet au format smartphone et tablette en nous concentrant sur les notions d’ergonomie, de design et d’intuitivité. De plus, nous sommes des adeptes du <a href="http://www.alsacreations.com/article/lire/1615-cest-quoi-le-responsive-web-design.html" target="_blank" title="responsive design">responsive design</a>.</p>
                 </article>
             </section>
         </div>    
