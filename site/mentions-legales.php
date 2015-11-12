@@ -1,35 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
-        <html lang="fr">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width"/>
         <title>Mentions légales | Accessibility</title>
         <link rel="icon" type="image/png" href="">
         <link rel="stylesheet" media="screen" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/style-franck.css">
     </head>
-<body> 
-<div class="wrapper">
-<h1>Mentions légales</h1>
-</br>
-Merci de lire avec attentions les différentes modalités d’utilisation du présent site avant d’y parcourir ses pages. En vous connectant sur ce site, vous acceptez sans réserves les présentes modalités. Aussi, conformément de l’Article n°6 de la Loi n°2004-575 du 21 Juin 2004 pour la confiance dans l’économie numérique, les responsables du présent site internet <a href="http://www.accessibility.fr">www.accessibility.fr</a> sont :
+    <body> 
+        <div class="wrapper">
+            <h1>Mentions légales</h1>
+            </br>
+        Merci de lire avec attentions les différentes modalités d’utilisation du présent site avant d’y parcourir ses pages. En vous connectant sur ce site, vous acceptez sans réserves les présentes modalités. Aussi, conformément de l’Article n°6 de la Loi n°2004-575 du 21 Juin 2004 pour la confiance dans l’économie numérique, les responsables du présent site internet <a href="http://www.accessibility.fr">www.accessibility.fr</a> sont :
 
-<p style="color: #b51a00;"><span style="color: rgb(0, 0, 0);"><b>Editeur du Site : </b></span></p>
-Accessibility
-Numéro de SIRET :  Numéro de Siret
-Responsable editorial : Mr. Accessibility
-15, rue de l'oiseau, 20 456, Yololand
-Téléphone :0333333333 - Fax : 0333333333
-Email : accessibility@oklm.fr
-Site Web : <a href="http://www.accessibility.fr">www.accessibility.fr</a>
-</br>
-<p style="color: #b51a00;"><b><span style="color: rgb(0, 0, 0);">Hébergement :</span> </b></p>
-Hébergeur : 2 plus 2
-9, rue de l'hébergement, 98 520, Paris
-Site Web :  <a href="http://www.2-plus-2.com">www.2-plus-2.com</a>
-</br>
+        <p style="color: #b51a00;"><span style="color: rgb(0, 0, 0);"><b>Editeur du Site : </b></span></p>
+        Accessibility
+        Numéro de SIRET :  Numéro de Siret
+        Responsable editorial : Mr. Accessibility
+        15, rue de l'oiseau, 20 456, Yololand
+        Téléphone :0333333333 - Fax : 0333333333
+        Email : accessibility@oklm.fr
+        Site Web : <a href="http://www.accessibility.fr">www.accessibility.fr</a>
+        </br>
+    <p style="color: #b51a00;"><b><span style="color: rgb(0, 0, 0);">Hébergement :</span> </b></p>
+    Hébergeur : 2 plus 2
+    9, rue de l'hébergement, 98 520, Paris
+    Site Web :  <a href="http://www.2-plus-2.com">www.2-plus-2.com</a>
+    </br>
 <p style="color: #b51a00;"><span style="color: rgb(0, 0, 0);"><b>Développement</b><b> : </b></span></p>
 Mr. Accessibility
 Adresse : 7, rue des morts, 78 541, Paris
@@ -77,6 +75,7 @@ De manière générale, vous n’êtes pas tenu de nous communiquer vos données
 Cependant, ce principe comporte certaines exceptions. En effet, pour certains services proposés par notre site, vous pouvez être amenés à nous communiquer certaines données telles que : votre nom, votre fonction, le nom de votre société, votre adresse électronique, et votre numéro de téléphone. Tel est le cas lorsque vous remplissez le formulaire qui vous est proposé en ligne, dans la rubrique « contact ». Dans tous les cas, vous pouvez refuser de fournir vos données personnelles. Dans ce cas, vous ne pourrez pas utiliser les services du site, notamment celui de solliciter des renseignements sur notre société, ou de recevoir les lettres d’information.
 
 Enfin, nous pouvons collecter de manière automatique certaines informations vous concernant lors d’une simple navigation sur notre site Internet, notamment : des informations concernant l’utilisation de notre site, comme les zones que vous visitez et les services auxquels vous accédez, votre adresse IP, le type de votre navigateur, vos temps d'accès. De telles informations sont utilisées exclusivement à des fins de statistiques internes, de manière à améliorer la qualité des services qui vous sont proposés. Les bases de données sont protégées par les dispositions de la loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la protection juridique des bases de données.
+</div>
 </body> 
-</div>  
+
 </html>

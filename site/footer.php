@@ -18,6 +18,8 @@
     </div>
     <div>
         <a target="_blank" title="Mentions légales" href="mentions-legales.php">Mentions légales</a>
+        </br>
+        <a target="_blank" title="Déclaration d'accessibilité" href="declaration-accessibilite.php">Déclaration d'accessibilité</a>
         <p id="social-text">Nos réseaux sociaux</p>
         <ul id="social-ico">
             <li><a title="facebook" href=""><i class="fa fa-facebook-square"></i></a></li>
